@@ -46,16 +46,16 @@ data = []
 test_data = []
 
 # directories with data
-unlabeled_data = "unlabeled_data/unlabeled_data.csv"
+unlabeled_data = "/contents/pytorch_active_learning/unlabeled_data/unlabeled_data.csv"
 
-evaluation_related_data = "evaluation_data/related.csv"
-evaluation_not_related_data = "evaluation_data/not_related.csv"
+evaluation_related_data = "/contents/pytorch_active_learning/evaluation_data/related.csv"
+evaluation_not_related_data = "/contents/pytorch_active_learning/evaluation_data/not_related.csv"
 
 #validation_related_data # not used in this example
 #validation_not_related_data # not used in this example
 
-training_related_data = "training_data/related.csv"
-training_not_related_data = "training_data/not_related.csv"
+training_related_data = "/contents/pytorch_active_learning/training_data/related.csv"
+training_not_related_data = "/contents/pytorch_active_learning/training_data/not_related.csv"
 
 
 already_labeled = {} # tracking what is already labeled
